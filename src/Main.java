@@ -20,10 +20,8 @@ public class Main {
             int choice = scanner.nextInt();
 
             if (choice == 0) {
-
                 running = false;
             } else {
-
                 switch (choice) {
                     case 1:
                         RandomNumbers.randomNumbersTask();
